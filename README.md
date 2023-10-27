@@ -1,8 +1,9 @@
-# React + Vite
+Content based Image Retrieval
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend: React
+Backend: Flask
 
-Currently, two official plugins are available:
+Aim: To build a content based image retrieval system that retrieves simialr images matching the search image
+Method: I trained a VGG model to give embeddings for images of Fashion dataset. Then used KNN to give similar images based on the embeddings of the search Image.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
