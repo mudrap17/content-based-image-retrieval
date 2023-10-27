@@ -1,4 +1,4 @@
-Content based Image Retrieval
+#Content based Image Retrieval
 
 Frontend: React
 Backend: Flask
